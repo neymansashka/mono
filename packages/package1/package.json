@@ -1,0 +1,20 @@
+{
+  "name": "@neymansashka/package1",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {},
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:neymansashka/mono.git"
+  }
+}
