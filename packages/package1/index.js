@@ -1,3 +1,3 @@
 module.exports = {
-    module1_test: 421 + 6,
+    module1_test: 421 + 1,
 };
