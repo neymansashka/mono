@@ -1,5 +1,11 @@
 # @neymansashka/package2
 
+## 2.0.3
+
+### Patch Changes
+
+- 786e97e: test
+
 ## 2.0.2
 
 ### Patch Changes
