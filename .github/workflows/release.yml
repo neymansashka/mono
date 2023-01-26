@@ -39,11 +39,13 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+        
+      - name: Set chmod
+        run: chmod +x ./update-lock.sh
      
       - name: Create release PR or publish to npm
         uses: changesets/action@v1.4.1
         with:
-          run: chmod +x ./update-lock.sh
           version: ./update-lock.sh
           publish: pnpm run publish
         env:
