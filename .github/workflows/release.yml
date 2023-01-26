@@ -43,7 +43,9 @@ jobs:
       - name: Create release PR or publish to npm
         uses: changesets/action@v1.4.1
         with:
-          version: ./update-lock.sh
+          version: |
+            chmod +x ./update-lock.sh
+            ./update-lock.sh
           publish: pnpm run publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
