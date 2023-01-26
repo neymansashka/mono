@@ -40,11 +40,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
      
-      - name: Create changeset config
-        run: |
-          echo '"baseBranch": "main"\n' >> .changeset/config2.json
-          echo '}' >> .changeset/config2.json
-
       - name: Create release PR or publish to npm
         uses: changesets/action@v1.4.1
         with:
