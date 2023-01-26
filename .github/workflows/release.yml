@@ -1,11 +1,6 @@
 name: Release
 
 on:
-  workflow_call:
-    inputs:
-      release:
-        required: false
-        type: boolean
   push:
     branches:
       - main
@@ -47,7 +42,6 @@ jobs:
      
       - name: Create release PR or publish to npm
         uses: changesets/action@v1.4.1
-        if: inputs.release == true
         with:
           run: chmod +x ./update-lock.sh
           version: ./update-lock.sh
