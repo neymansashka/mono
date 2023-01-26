@@ -1,5 +1,11 @@
 # @neymansashka/package1
 
+## 1.0.3
+
+### Patch Changes
+
+- b200a55: test
+
 ## 1.0.2
 
 ### Patch Changes
