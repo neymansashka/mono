@@ -4,7 +4,7 @@
   "private": "true",
   "license": "MIT",
   "scripts": {
-    "version": "changeset version",
+    "version": "changeset version && pnpm install --lockfile-only",
     "publish": "changeset publish",
     "changeset": "changeset"
   },
