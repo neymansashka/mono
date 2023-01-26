@@ -1,4 +1,4 @@
-lockfileVersion: 5.4
+lockfileVersion: 5.3
 
 importers:
 
@@ -11,6 +11,12 @@ importers:
       '@changesets/cli': 2.26.0
       '@neymansashka/package1': link:packages/package1
       '@neymansashka/package2': link:packages/package2
+
+  packages/package1:
+    specifiers: {}
+
+  packages/package2:
+    specifiers: {}
 
 packages:
 
